@@ -3,7 +3,7 @@ import * as express from 'express'
 const app = express()
 const PORT = process.env.PORT || 3111
 
-app.get('/', (req, res) => {
+app.get('/', (_req, res) => {
     res.send('Hello from File Cabinet!')
 })
 
